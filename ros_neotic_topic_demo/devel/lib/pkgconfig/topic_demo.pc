@@ -1,0 +1,8 @@
+prefix=/home/pc/learn_ros1/ros_neotic_topic_demo/devel
+
+Name: topic_demo
+Description: Description of topic_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

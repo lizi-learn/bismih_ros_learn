@@ -1,0 +1,17 @@
+#include <ros/ros.h>
+#include <std_msgs/String.h>
+
+void chatterCallback(const std_msgs::String::ConstPtr &msg) {
+  ROS_INFO_STREAM("Heard: " << msg->data);
+}
+
+int main(int argc, char **argv) {
+  ros::init(argc, argv, "listener");
+  ros::NodeHandle nh;
+
+  ros::Subscriber sub = nh.subscribe("chatter", 10, chatterCallback);
+
+  ros::spin();
+  return 0;
+}
+

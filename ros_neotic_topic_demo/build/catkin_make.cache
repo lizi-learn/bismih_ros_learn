@@ -1,0 +1,2 @@
+topic_demo
+-DCATKIN_DEVEL_PREFIX=/home/pc/learn_ros1/ros_neotic_topic_demo/devel -DCMAKE_INSTALL_PREFIX=/home/pc/learn_ros1/ros_neotic_topic_demo/install -G Unix Makefiles
