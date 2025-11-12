@@ -1,0 +1,2 @@
+ros_websocket_demo
+-DCATKIN_DEVEL_PREFIX=/home/pc/learn_ros1/ros_neotic_web_websocket_demo/devel -DCMAKE_INSTALL_PREFIX=/home/pc/learn_ros1/ros_neotic_web_websocket_demo/install -G Unix Makefiles

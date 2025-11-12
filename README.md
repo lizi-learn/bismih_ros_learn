@@ -5,3 +5,7 @@
 
 # ROS Noetic Topic Demo
 创建一个ROS Noetic topic demo c++;完整pub和sub的功能
+
+# ROS Noetic Websocket Demo
+本示例展示了 ROS Noetic C++ 节点与云端 Flask WebSocket 服务之间的通信流程。
+

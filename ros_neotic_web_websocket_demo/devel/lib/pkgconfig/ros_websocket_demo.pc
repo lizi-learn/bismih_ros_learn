@@ -1,0 +1,8 @@
+prefix=/home/pc/learn_ros1/ros_neotic_web_websocket_demo/devel
+
+Name: ros_websocket_demo
+Description: Description of ros_websocket_demo
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs

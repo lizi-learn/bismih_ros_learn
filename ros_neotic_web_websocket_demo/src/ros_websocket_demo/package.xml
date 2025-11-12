@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_websocket_demo</name>
+  <version>0.0.1</version>
+  <description>ROS Noetic C++ 示例包，演示如何与云端 Flask WebSocket 服务通信。</description>
+
+  <maintainer email="user@example.com">Demo Maintainer</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>libwebsocketpp-dev</build_depend>
+  <build_depend>boost</build_depend>
+  <build_depend>libssl-dev</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>libwebsocketpp-dev</exec_depend>
+  <exec_depend>boost</exec_depend>
+  <exec_depend>libssl-dev</exec_depend>
+
+  <export>
+  </export>
+</package>
+
